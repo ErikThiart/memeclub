@@ -145,7 +145,7 @@ function sendmail($to, $subject, $message, $name)
   $mail->Host       = "mail.mordor.co.za";
   $mail->Port       = 587;
   $mail->Username   = "app@mordor.co.za";
-  $mail->Password   = "Yokon@13";
+  $mail->Password   = "";
   $mail->SMTPSecure = 'tls';
   $mail->SetFrom('app@mordor.co.za', 'Memeclub');
   $mail->Subject    = $subject;
