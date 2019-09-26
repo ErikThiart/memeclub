@@ -59,7 +59,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
            $referrer_id = null;
         }
         if(empty($error)) {
-           register_user($username, $email, $password_hash, $referrer_id);
+          User::register($username, $email, $password_hash, $referrer_id);
+          //  register_user($username, $email, $password_hash, $referrer_id);
         }
     } else {
       redirect('logout.php');

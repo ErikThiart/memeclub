@@ -20,3 +20,6 @@ include 'functions.php';
 
 // include database
 include 'database.php';
+
+// include user model
+include 'user.php';

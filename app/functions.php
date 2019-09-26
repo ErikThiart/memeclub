@@ -115,20 +115,20 @@ function confirm_registraiton($token, $email) {
 }
 
 function reset_password($hashed_pass, $user_id, $email, $reset_token) {
-   // get the DB
-   global $pdo;
-   $stmt = $pdo->prepare('UPDATE users SET password_hash = :password_hash, password_reset_token = NULL WHERE id = :user_id AND email = :email AND password_reset_token = :reset_token');
-   $stmt->bindParam(':password_hash', $hashed_pass);
-   $stmt->bindParam(':user_id', $user_id);
-   $stmt->bindParam(':email', $email);
-   $stmt->bindParam(':reset_token', $reset_token);
-   if($stmt->execute()) {
-      redirect('index.php');
-   } else {
-      $_SESSION['message'] = "Password Reset Failed";
-      $_SESSION['heading'] = "Contact Support";
-      redirect('error.php'); 
-   }
+    // get the DB
+    global $pdo;
+    $stmt = $pdo->prepare('UPDATE users SET password_hash = :password_hash, password_reset_token = NULL WHERE id = :user_id AND email = :email AND password_reset_token = :reset_token');
+    $stmt->bindParam(':password_hash', $hashed_pass);
+    $stmt->bindParam(':user_id', $user_id);
+    $stmt->bindParam(':email', $email);
+    $stmt->bindParam(':reset_token', $reset_token);
+    if($stmt->execute()) {
+        redirect('index.php');
+    } 
+
+    $_SESSION['message'] = "Password Reset Failed";
+    $_SESSION['heading'] = "Contact Support";
+    redirect('error.php'); 
 }
 
 /**

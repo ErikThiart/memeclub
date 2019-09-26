@@ -7,3 +7,4 @@ confirm_registraiton($token, $email);
 } else {
   redirect('logout.php');
 }
+

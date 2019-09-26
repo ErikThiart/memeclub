@@ -43,11 +43,10 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
        $error = 1;
      } else {
        $password = clean($_POST['password']);
-       $hashed_pass =  password_hash($password, PASSWORD_DEFAULT);
      }
      if(empty($error)) {
         //reset the password
-        reset_password($hashed_pass, $user_id, $email, $reset_token);
+        reset_password($password, $user_id, $email, $reset_token);
      } else {
         //errors are found
         $_SESSION['message'] = "Password Reset Failed";
