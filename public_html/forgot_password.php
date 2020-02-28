@@ -25,7 +25,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
       $user = $stmt->fetch();
       if($user) {
         //create a reset token (override old tokens)
-        $reset_token = bin2hex(random_bytes(3).$user['email'].time().random_bytes(2));
+        $reset_token = bin2hex(random_bytes(32));
         // set the token
         $stmt = $pdo->prepare('UPDATE users SET password_reset_token = :reset_token WHERE id = :user_id');
         $stmt->bindParam(':user_id', $user['id']);
