@@ -7,7 +7,7 @@ I created this website becuase I was tired of 9gag and 4chan and all the other m
 
 The idea was to keep it behind a login as I believe the exclusivity will create demand and drive adoption (this however is not set in stone).
 
-What is set in stone is that no GIFs and Videos must ever be allowed - I know one day when this project becomes bigger my vote and opinion will no longer matter, but like Bitcoin with it's many forks today because Satoshi (Never forget Hal Finney) is no longer here to defend his original vision - I want to make mine clear so that when I die there is no confusion to what my idea and vision was.
+What is set in stone is that no GIFs and Videos must ever be allowed - I know one day when this project becomes bigger my vote and opinion will no longer matter, but like Bitcoin with it's many forks today because Satoshi (Never forget Hal Finney) is no longer here to defend his original vision - I want to make mine clear so that when I do die there is no confusion to what my idea and vision was.
 
 ### Why Open Source Memeclub.xyz?
 * You can't do something great alone. 
