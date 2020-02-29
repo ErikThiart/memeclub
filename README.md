@@ -25,6 +25,20 @@ Be the top meme sharing platform.
 * Upvote/Downvote Memes
 * Top Memes
 
+### Screenshots
+
+![Alt text](/../memeclub/readme/view_meme.png?raw=true)
+
+![Alt text](/../memeclub/readme/registration.png?raw=true)
+
+![Alt text](/../memeclub/readme/login.png?raw=true)
+
+![Alt text](/../memeclub/readme/memester_profile.png?raw=true)
+
+![Alt text](/../memeclub/readme/all_memesters.png?raw=true)
+
+![Alt text](/../memeclub/readme/all_memes.png?raw=true)
+
 ### Contribute
 
 Do you want to help? That's awesome. Here are simple things you can do.
