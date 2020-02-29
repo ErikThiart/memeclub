@@ -27,17 +27,17 @@ Be the top meme sharing platform.
 
 ### Screenshots
 
-![Alt text](/../memeclub/readme/view_meme.png?raw=true)
+![Alt text](/../master/readme/view_meme.png?raw=true)
 
-![Alt text](/../memeclub/readme/registration.png?raw=true)
+![Alt text](/../master/readme/registration.png?raw=true)
 
-![Alt text](/../memeclub/readme/login.png?raw=true)
+![Alt text](/../master/readme/login.png?raw=true)
 
-![Alt text](/../memeclub/readme/memester_profile.png?raw=true)
+![Alt text](/../master/readme/memester_profile.png?raw=true)
 
-![Alt text](/../memeclub/readme/all_memesters.png?raw=true)
+![Alt text](/../master/readme/all_memesters.png?raw=true)
 
-![Alt text](/../memeclub/readme/all_memes.png?raw=true)
+![Alt text](/../master/readme/all_memes.png?raw=true)
 
 ### Contribute
 
