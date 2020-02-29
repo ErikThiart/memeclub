@@ -12,9 +12,9 @@ function register_user($username, $email, $password_hash, $referrer_id)
     global $pdo;
     $app_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}";
     // create the token
-    $token = bin2hex(random_bytes(3).$email.time().random_bytes(1));
+    $token = bin2hex(random_bytes(32));
     // create invite code
-    $invite_code = substr(md5($email.microtime()),rand(0,26),10);
+    $invite_code = generate_referral_code(6);
     // register the user
     try {
         $stmt = $pdo->prepare('INSERT INTO users (username, email, password_hash, activation_token, invite_code) VALUES (:username, :email, :password, :token, :invite_code)');
@@ -202,3 +202,10 @@ function get_client_ip_server() {
  
     return $ipaddress;
 }
+
+// Function to generate the referral code
+function generate_referral_code($length_of_string) 
+{ 
+    $str_result = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz'; 
+    return substr(str_shuffle($str_result), 0, $length_of_string); 
+} 
