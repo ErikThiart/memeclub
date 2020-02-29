@@ -12,28 +12,28 @@ What is set in stone is that no GIFs and Videos must ever be allowed - I know on
 ### Why Open Source Memeclub.xyz?
 * You can't do something great alone. 
 
-## Vision
+### Vision
 Be the top meme sharing platform.
 
-## What Memeclub.xyz isn't
+### What Memeclub.xyz isn't
 * Memeclub.xyz is not a social network and never will be.
 
-## Features
+### Features
 
 * User Accounts
 * Member Invitation System
 * Upvote/Downvote Memes
 * Top Memes
 
-## Contribute
+### Contribute
 
 Do you want to help? That's awesome. Here are simple things you can do.
 
-### As a community
+#### As a community
 
 * The best way to help is **to actually talk about the project** as much as you can (blog post, articles, Twitter, Facebook). Join [memeclub.xyz](https://memeclub.xyz) and share your invite code with other meme lovers.
 
-## Contribute as a developer
+#### Contribute as a developer
 
 * Add features and improve the platform 1 line of code at a time. The primary branch will be `MEME-001` 
 
@@ -53,7 +53,7 @@ If you want to host it yourself, you need
 * Composer
 * MySQL
 
-#### License
+### License
 
 MIT License
 
