@@ -43,7 +43,8 @@ Do you want to help? That's awesome. Here are simple things you can do.
 ~~// Make it open source~~
 
 // Convert to OOP
-Currently the `MEME-001` branch is being developed on by https://github.com/marcoValkyriweb - the aim of this branch is to convert the base project (master branch) to OOP. When I built this app initially I used procedural - that is what I knew, but I realized for this project to grow I will need to convert it to OOP and I am learning that paradigm in this process.
+
+* Currently the `MEME-001` branch is being developed on by https://github.com/marcoValkyriweb - the aim of this branch is to convert the base project (master branch) to OOP. When I built this app initially I used procedural - that is what I knew, but I realized for this project to grow I will need to convert it to OOP and I am learning that paradigm in this process.
 
 ### Requirements
 If you want to host it yourself, you need
