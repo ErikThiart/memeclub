@@ -20,6 +20,7 @@ Be the top meme sharing platform.
 
 ### Features
 
+* No GIFs/Videos
 * User Accounts
 * Member Invitation System
 * Upvote/Downvote Memes
