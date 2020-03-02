@@ -54,7 +54,7 @@ function register_user($username, $email, $password_hash, $referrer_id)
           }
           // Redirect the user to success page.
           $_SESSION['heading'] = "Registration Successful";
-          $_SESSION['message'] = "Thank you for registering on our platform. We have send you a confirmation E-mail which you need to accept before your registration is completed.<br> Please check your spam folder if you use gmail.";
+          $_SESSION['message'] = "Thank you for registering on our platform. We have sent you a confirmation E-mail which you need to accept before your registration is completed.<br> Please check your spam folder if you use gmail.";
           redirect('success.php');
         } else {
           $_SESSION['message'] = "Confirmation E-mail was not sent.";
